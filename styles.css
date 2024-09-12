@@ -3,47 +3,49 @@ body {
     margin: 0;
     padding: 0;
     }
-    .header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 50;
     }
-    .header__nav {
+.header__menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    }
+.header__nav {
     display: flex;
     }
-    .header__link {
+.header__link {
     color: #fff;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 50px;
     }
-    .header__link:hover {
+.header__link:hover {
     color: #ff0000;
     }
-    .content {
+.options__menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    }
+.content {
     padding: 20px;
     }
-    .footer {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
+.footer {
+        background-color: white;
+        text-align: left;
         padding: 10px;
         position: relative;
         bottom: 0;
-        width: 100%;
-        }
-    .options {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
+        border-left: 5px solid #333;
     }
-    .options__link {
-            color:  #fff;
-            text-decoration: none;
-            margin-left: 20px;
-            }
-    .options__link:hover {
-            color: #ff0000;
-            }
